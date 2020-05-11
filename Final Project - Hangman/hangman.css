@@ -1,0 +1,50 @@
+/* hangman.css */
+
+body {
+    background-image: url('woodbg.jpg');
+}
+
+#guessWord {
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px;
+
+}
+
+/* button spacing needs to be bigger */
+
+#hintContainer {
+    margin: 40px;
+}
+
+#lose,
+#win {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#resetButton{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#answer {
+    text-align: center;
+}
+
+.btn {
+    margin: 7px;
+}
+
+#category {   
+    align-items: center;
+    justify-content: center;
+}
+
+div > span, div > h3{
+    color: white;
+}
